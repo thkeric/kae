@@ -169,7 +169,8 @@ section{padding-block:clamp(64px,9vw,120px)}
 .tag.hi{color:var(--blue)}
 .tag.lo{color:var(--ink-2)}
 .phones{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:end;max-width:640px}
-.phones img{background:transparent;border-radius:18px}
+.phones img{background:transparent;border-radius:0;filter:drop-shadow(0 14px 22px rgba(14,17,22,.16))}
+.phones figcaption{text-align:center}
 .screens{display:grid;grid-template-columns:1fr 1fr 2fr;gap:16px;align-items:start}
 .screens .fig:nth-child(-n+2) img{border-radius:14px}
 .take{display:grid;grid-template-columns:132px minmax(0,1fr);gap:20px;border-top:1px solid var(--ink);padding-top:18px}
@@ -342,7 +343,7 @@ footer{background:var(--ink);color:#7D8494;font-size:13px;padding-block:28px}
     </div>
     <div class="index" id="index">
       <a class="row" href="#case-ignis" data-img="img/poster-collision.jpg"><span class="no">01</span><span class="t">Ignis Oasis</span><span class="d">기후 위기 인식 통합 캠페인</span><span class="k">캠페인 · 브랜딩</span><span class="y">2024–25</span><span class="arr">→</span></a>
-      <a class="row" href="#case-vanbrugh" data-img="img/ig-recap.jpg"><span class="no">02</span><span class="t">Vanbrugh Badminton</span><span class="d">대학 스포츠 클럽 소셜 채널 전략</span><span class="k">채널 운영</span><span class="y">2020–22</span><span class="arr">→</span></a>
+      <a class="row" href="#case-vanbrugh" data-img="img/ig-recap.png"><span class="no">02</span><span class="t">Vanbrugh Badminton</span><span class="d">대학 스포츠 클럽 소셜 채널 전략</span><span class="k">채널 운영</span><span class="y">2020–22</span><span class="arr">→</span></a>
       <a class="row" href="#case-production" data-img=""><span class="no">03</span><span class="t">제작 현장</span><span class="d">육군 정훈병 영상 20편 이상 · Neon Cup 라이브 방송</span><span class="k">영상 · 라이브</span><span class="y">2021–24</span><span class="arr">→</span></a>
       <a class="row" href="#case-thryve" data-img="img/th-badges.jpg"><span class="no">04</span><span class="t">Thryve</span><span class="d">게이미피케이션 헬스 앱 · 석사 학위논문</span><span class="k">리서치 · UX · 3D</span><span class="y">2024–25</span><span class="arr">→</span></a>
       <a class="row" href="#case-budgetbills" data-img="img/bb-cards.jpg"><span class="no">05</span><span class="t">BudgetBills</span><span class="d">정산 앱 UX 리서치와 사용성 테스트</span><span class="k">UX 리서치</span><span class="y">2024</span><span class="arr">→</span></a>
@@ -459,9 +460,9 @@ footer{background:var(--ink);color:#7D8494;font-size:13px;padding-block:28px}
         </div>
 
         <div class="phones">
-          <figure class="fig"><img src="img/ig-profile.jpg" alt="Vanbrugh 배드민턴 인스타그램 프로필 화면" loading="lazy"><figcaption>채널 프로필과 피드</figcaption></figure>
-          <figure class="fig"><img src="img/ig-story.jpg" alt="Varsity 경기 일정 스토리 화면" loading="lazy"><figcaption>경기 일정 스토리</figcaption></figure>
-          <figure class="fig"><img src="img/ig-recap.jpg" alt="우승 직후 Recap 게시물 화면" loading="lazy"><figcaption>우승 직후 Recap</figcaption></figure>
+          <figure class="fig"><img src="img/ig-story.png" alt="Varsity 경기 일정 스토리 화면" loading="lazy"><figcaption>경기 일정 스토리</figcaption></figure>
+          <figure class="fig"><img src="img/ig-profile.png" alt="Vanbrugh 배드민턴 인스타그램 프로필 화면" loading="lazy"><figcaption>채널 프로필과 피드</figcaption></figure>
+          <figure class="fig"><img src="img/ig-recap.png" alt="우승 직후 Recap 게시물 화면" loading="lazy"><figcaption>우승 직후 Recap</figcaption></figure>
         </div>
 
         <div class="take"><span class="lb">현업에서</span><p>같은 브랜드도 처음 만나는 사람과 이미 익숙한 사람에게는 다른 말로 다가가야 했습니다. 광고주의 신규 고객과 기존 고객을 나눠 보는 일에 그대로 이어집니다.</p></div>
